@@ -14,7 +14,7 @@ function cargarProductos() {
       </div>
       <div class="info-container">
         <p>${producto.Precio}</p>
-            <div class="details-container"><div><button>Pedir a whatsapp</button></div><details><summary>Ver características</summary>${producto.características}</details>
+            <div class="details-container"><div><a href="https://wa.me/qr/E6O5MIXHBIRXA1">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
       </div>
     </div>`;
   });

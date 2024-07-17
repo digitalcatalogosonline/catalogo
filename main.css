@@ -82,21 +82,25 @@ li:hover {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px 0;
 }
-.product-cart button {
-    border: none;
+
+.product-cart a {
+    text-align: center;
+    display: block;
     background: #31733f;
     padding: 16px;
     color: white;
     border-radius: 10px;
     font-weight: 600;
+    text-decoration: none;
 }
-.product-cart button:hover {
+.product-cart a:hover {
     background: none;
     border: 1px solid #31733f;
     color: #31733f;
 }
 .product-cart div {
     padding: 5px 0px ;
+    width: 100%;
     
 }
 details {
