@@ -88,7 +88,7 @@ lavado: 7 kg</li><li>Lavadora semi automática</li><li>2 programas: lavar y cent
   },
   {
     nombre: "Heladera Milexus",
-    Precio:"Precio: 920 USD",
+    Precio:"920 USD",
     características: `<ul><li>Marca: Milexus</li></ul>`,
     foto:"./public/imagenes_productos/otros/Heladera milexus.jpg",
     categoria:"otros"
