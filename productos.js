@@ -82,8 +82,15 @@ lavado: 7 kg</li><li>Lavadora semi automática</li><li>2 programas: lavar y cent
   {
     nombre: "Refrigerador Mabe",
     Precio:"880 USD",
-    características: `<ul><li>Marca: Mabe</li><li>color: Metalico</li><li>automatico de dos puertas</li><li>Anaqueles grandes y profundos que almacenan botellas de hasta 3 L.</li><li>Ahorro de energía, mejor conservación y más frescura de los alimentos, gracias a su sistema de enfriamiento.</li><li></li><li></li></ul>`,
+    características: `<ul><li>Marca: Mabe</li><li>color: Metalico</li><li>automatico de dos puertas</li><li>Anaqueles grandes y profundos que almacenan botellas de hasta 3 L.</li><li>Ahorro de energía, mejor conservación y más frescura de los alimentos, gracias a su sistema de enfriamiento.</li></ul>`,
     foto:"./public/imagenes_productos/refrigeradores/Refrigerador Mabe.jpg",
+    categoria: "refrigeradores"
+  },
+  {
+    nombre: "Refrigerador Samsung",
+    Precio:"1400 USD",
+    características: `<ul><li>Marca: Samsung</li><li>Modelo: RT44A6354S9/AP</li><li>Contenedor para huevos</li><li>Voltaje	120V / 60 Hz</li><li>Consumo de potencia	150W – 160W</li><li>1 cajon para frutas y verduras</li><li>Eficiencia energética: 290 kWh/año</li><li>Tipo de enfriamiento: Monoenfriamiento</li></ul>`,
+    foto:"./public/imagenes_productos/refrigeradores/Refrigerador samsung 15.5 pies.jpg",
     categoria: "refrigeradores"
   },
   {
@@ -112,6 +119,23 @@ lavado: 7 kg</li><li>Lavadora semi automática</li><li>2 programas: lavar y cent
     Precio:" 1050 USD",
     características: `<ul><li>Marca: Milexus</li><li>Capacidad: 20 pies</li><li>Funciones: Congelación y mantenimiento</li><li>Congelación: Por debajo de aproximadamente -22 °C</li><li>Voltaje: 110v – 60 Hz</li></ul>`,
     foto:"./public/imagenes_productos/otros/freezer_Milexus_20_pies.png",
+    categoria:"otros"
+  },
+  {
+    nombre: "Secadora a vapor Samsung",
+    Precio:" 900 USD",
+    características: `<ul><li>Marca: Milexus</li><li>Capacidad: 17 kg</li><li>Color: Blanco</li><li>Alto: 111.7 cm</li><li>Ancho: 68.8 cm</li><li>Profundidad: 76.8 cm</li><li>Peso
+58 kg</li></ul>`,
+    foto:"./public/imagenes_productos/otros/Secadora a vapor Samsung.jpg",
+    categoria:"otros"
+  },
+  {
+    nombre: "Lavadora secadora Samsung 11kg",
+    Precio:" 900 USD",
+    características: `<ul><li>Marca: Samsung</li><li>Modelo S45-WD11N64FRAX</li><li>Lavadora con inteligencia artificial</li><li>Desinfecta con aire</li><li>Gran capacidad (11kg)</li><li>Secado al aire: 
+Puedes mantener tu ropa limpia y fresca sin agua ni jabón. La tecnología Air Wash desodoriza y desinfecta tus prendas para que siempre huelan bien. El aire caliente elimina los olores desagradables y las bacterias. Gracias a esto, no se necesita agua muy caliente ni productos químicos potencialmente dañinos.</li><li>Peso
+58 kg</li></ul>`,
+    foto:"./public/imagenes_productos/lavadoras/Lavadora secadora samsung.jpg",
     categoria:"otros"
   },
 ];
