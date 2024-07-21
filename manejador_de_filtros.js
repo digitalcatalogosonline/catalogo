@@ -16,7 +16,7 @@ function cargarProductos() {
       <p>${producto.nombre}</p>
       <hr>
         <p>${producto.Precio}</p>
-            <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
+            <div class="details-container"><div><a href="https://wa.me/59225043?text=Hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
       </div>
     </div>`;
   });
@@ -45,7 +45,7 @@ const filtroLavadoras = document
         <p>${producto.nombre}</p>
       <hr>
           <p>${producto.Precio}</p>
-      <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
+      <div class="details-container"><div><a href="https://wa.me/59225043?text=Hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
         </div>
       </div>`;
       }
@@ -70,7 +70,7 @@ const filtroRefrigeradores = document
         <p>${producto.nombre}</p>
       <hr>
           <p>${producto.Precio}</p>
-      <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
+      <div class="details-container"><div><a href="https://wa.me/59225043?text=Hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
         </div>
       </div>`;
       }
@@ -95,7 +95,7 @@ const filtroOtros = document
         <p>${producto.nombre}</p>
       <hr>
           <p>${producto.Precio}</p>
-      <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
+      <div class="details-container"><div><a href="https://wa.me/59225043?text=Hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
         </div>
       </div>`;
       }

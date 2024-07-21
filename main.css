@@ -17,9 +17,27 @@ li:hover,button:hover {
 }
 h1 {
   text-align: center;
-  padding: 16px;
+  padding: 8px;
   font-family: sancreek;
   color: #31733f;
+}
+.garantia-contenedor {
+    padding: 5px;
+    display: flex;
+    
+ 
+}
+.garantia-contenedor p {
+   margin: 0 auto;
+   font-size: 16px;
+   font-weight: 900;
+   background: #31733f;
+   padding: 20px;
+   border-radius: 20px;
+   background: rgb(23 162 184);
+   color: #ffffff;
+  
+   
 }
 .header {
     position: sticky;
