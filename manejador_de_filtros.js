@@ -14,7 +14,7 @@ function cargarProductos() {
       </div>
       <div class="info-container">
         <p>${producto.Precio}</p>
-            <div class="details-container"><div><a href="https://wa.me/qr/E6O5MIXHBIRXA1">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
+            <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
       </div>
     </div>`;
   });
@@ -33,7 +33,7 @@ const filtroLavadoras = document
     productos.forEach((producto) => {
       if (producto.categoria == "lavadoras") {
         contenedor.innerHTML += `<div class="product-cart">
-        <div class="image-container">
+   <div class="image-container">
           <img
             src="${producto.foto}"
             alt=""
@@ -41,7 +41,7 @@ const filtroLavadoras = document
         </div>
         <div class="info-container">
           <p>${producto.Precio}</p>
-           <div class="details-container"><div><a href="https://wa.me/qr/E6O5MIXHBIRXA1">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
+      <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
         </div>
       </div>`;
       }
@@ -64,7 +64,7 @@ const filtroRefrigeradores = document
         </div>
         <div class="info-container">
           <p>${producto.Precio}</p>
-      <div class="details-container"><div><a href="https://wa.me/qr/E6O5MIXHBIRXA1">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
+      <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
         </div>
       </div>`;
       }
@@ -79,7 +79,7 @@ const filtroOtros = document
     productos.forEach((producto) => {
       if (producto.categoria == "otros") {
         contenedor.innerHTML += `<div class="product-cart">
-        <div class="image-container">
+       <div class="image-container">
           <img
             src="${producto.foto}"
             alt=""
@@ -87,7 +87,7 @@ const filtroOtros = document
         </div>
         <div class="info-container">
           <p>${producto.Precio}</p>
-    <div class="details-container"><div><a href="https://wa.me/qr/E6O5MIXHBIRXA1">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
+      <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
         </div>
       </div>`;
       }

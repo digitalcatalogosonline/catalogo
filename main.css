@@ -25,7 +25,7 @@ h1 {
     position: sticky;
     z-index: 10;
     top: 0;
-    padding: 16px;
+    padding: 5px;
 }
 .header ul {
     box-shadow: 0 4px 4px  rgb(4, 120, 87);

@@ -131,7 +131,7 @@ lavado: 7 kg</li><li>Lavadora semi automática</li><li>2 programas: lavar y cent
   },
   {
     nombre: "Lavadora secadora Samsung 11kg",
-    Precio:" 900 USD",
+    Precio:" 1350 USD",
     características: `<ul><li>Marca: Samsung</li><li>Modelo S45-WD11N64FRAX</li><li>Lavadora con inteligencia artificial</li><li>Desinfecta con aire</li><li>Gran capacidad (11kg)</li><li>Secado al aire: 
 Puedes mantener tu ropa limpia y fresca sin agua ni jabón. La tecnología Air Wash desodoriza y desinfecta tus prendas para que siempre huelan bien. El aire caliente elimina los olores desagradables y las bacterias. Gracias a esto, no se necesita agua muy caliente ni productos químicos potencialmente dañinos.</li><li>Peso
 58 kg</li></ul>`,
