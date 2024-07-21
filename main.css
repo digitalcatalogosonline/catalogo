@@ -68,6 +68,9 @@ li:hover {
 .product-cart * {
     width: 100%;
 }
+hr {
+    margin: 10px 0;
+}
 .product-cart img {
     width: 150px;
     height: 150px;
@@ -80,10 +83,15 @@ li:hover {
 }
 .product-cart p {
     color: rgba(0, 0, 0,70%);
-    font-size: 24px;
-    font-weight:600;
+    font-size: 16px;
+    font-weight:900;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px 0;
+    
+}
+.product-cart p:nth-child(1){
+    max-width: 90%;
+
 }
 
 .product-cart a {

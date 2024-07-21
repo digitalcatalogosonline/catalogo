@@ -13,6 +13,8 @@ function cargarProductos() {
         />
       </div>
       <div class="info-container">
+      <p>${producto.nombre}</p>
+      <hr>
         <p>${producto.Precio}</p>
             <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
       </div>
@@ -40,6 +42,8 @@ const filtroLavadoras = document
           />
         </div>
         <div class="info-container">
+        <p>${producto.nombre}</p>
+      <hr>
           <p>${producto.Precio}</p>
       <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
         </div>
@@ -63,6 +67,8 @@ const filtroRefrigeradores = document
           />
         </div>
         <div class="info-container">
+        <p>${producto.nombre}</p>
+      <hr>
           <p>${producto.Precio}</p>
       <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
         </div>
@@ -86,6 +92,8 @@ const filtroOtros = document
           />
         </div>
         <div class="info-container">
+        <p>${producto.nombre}</p>
+      <hr>
           <p>${producto.Precio}</p>
       <div class="details-container"><div><a href="https://wa.me/59225043?text=hola me interesa comprar ${producto.nombre}(${producto.Precio})">Pedir a whatsapp</a></div><details><summary>Ver características</summary>${producto.características}</details>
         </div>
