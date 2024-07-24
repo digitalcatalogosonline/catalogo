@@ -139,3 +139,4 @@ Puedes mantener tu ropa limpia y fresca sin agua ni jabón. La tecnología Air W
     categoria:"otros"
   },
 ];
+console.log(JSON.stringify(productos))
