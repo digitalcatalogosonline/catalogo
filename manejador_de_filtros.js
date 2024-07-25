@@ -1,4 +1,4 @@
-import { productos } from "./productos.js";
+import { productos } from "./productos.mjs";
 import { manejadorAcordion } from "./manejador_de_modales.js";
 
 function cargarProductos() {
